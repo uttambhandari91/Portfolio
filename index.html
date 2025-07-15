@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      body {
+        background: linear-gradient(to bottom, #e0f7fa, #f1f8e9);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: white;
+      }
+      header nav a {
+        color: white;
+        transition: all 0.3s ease-in-out;
+      }
+      header nav a:hover {
+        color: #ffeb3b;
+      }
+      .project-card {
+        transition: transform 0.3s ease;
+      }
+      .project-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      }
+      footer {
+        background-color: #e3f2fd;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="shadow-lg py-6">
+      <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-3xl font-bold">Uttam Bhandari</h1>
+        <nav class="space-x-6">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="py-20 text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-indigo-800 mb-4">AI Engineer | Machine Learning | MLOps</h2>
+        <p class="text-lg text-gray-700">Creating impactful AI systems and intelligent data-driven solutions</p>
+      </div>
+    </section>
+
+     <main class="max-w-5xl mx-auto px-4 py-12">
+	      <section id="projects" class="mb-16">
+	        <h2 class="text-3xl font-semibold text-indigo-700 mb-6">Featured Projects and Publications</h2>
+	        <div class="grid gap-8 md:grid-cols-2">
+	          <div class="bg-white rounded-xl shadow-md p-6 project-card">
+	            <h3 class="text-xl font-bold mb-2 text-blue-800">Multimodal Foundation Model</h3>
+	            <p class="mb-2 text-gray-700">Built a large-scale scientific foundation model from scratch using PyTorch Lightning, CUDA optimization, and Hugging Face.</p>
+
+	          </div>
+
+	          <div class="bg-white rounded-xl shadow-md p-6 project-card">
+	            <h3 class="text-xl font-bold mb-2 text-blue-800">Anomaly Detection in Semiconductor Manufacturing</h3>
+	            <p class="mb-2 text-gray-700">Deployed real-time anomaly detection system using Kafka, Spark Streaming, and scikit-learn on fab sensor data.</p>
+	          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="mb-16">
+        <h2 class="text-3xl font-semibold text-indigo-700 mb-4">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+          <span class="bg-gradient-to-r from-pink-300 to-yellow-200 rounded-md p-3 shadow text-center">Python / PyTorch / TensorFlow</span>
+          <span class="bg-gradient-to-r from-green-300 to-blue-200 rounded-md p-3 shadow text-center">MLOps / AWS / Docker</span>
+          <span class="bg-gradient-to-r from-purple-300 to-pink-200 rounded-md p-3 shadow text-center">SQL / NoSQL / BigQuery</span>
+          <span class="bg-gradient-to-r from-yellow-300 to-red-200 rounded-md p-3 shadow text-center">FastAPI / Streamlit</span>
+          <span class="bg-gradient-to-r from-indigo-300 to-purple-200 rounded-md p-3 shadow text-center">Computer Vision / NLP</span>
+          <span class="bg-gradient-to-r from-teal-300 to-cyan-200 rounded-md p-3 shadow text-center">CI/CD / GitHub Actions</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="text-3xl font-semibold text-indigo-700 mb-4">Contact</h2>
+        <p>Email: <a href="bhandari91uttam@gmail.com" class="text-blue-600">bhandari91uttam@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/uttam-bhandari-487121192/" class="text-blue-600" target="_blank">https://www.linkedin.com/in/uttam-bhandari-487121192/</a></p>
+        <p>GitHub: <a href="https://github.com/uttambhandari91" class="text-blue-600" target="_blank">https://github.com/uttambhandari91</a></p>
+        <p>Google scholar: <a href="https://scholar.google.com/citations?user=k1ImqCwAAAAJ&hl=en" class="text-blue-600" target="_blank">https://scholar.google.com/citations?user=k1ImqCwAAAAJ&hl=en</a></p>
+      </section>
+    </main>
+    </section>
+
+      <section id="Application of machine learning in material science" class="mb-16">
+        <h2 class="text-3xl font-semibold text-indigo-700 mb-4">Application of machine learning in material science</h2>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>
+            "Yield strength prediction of high-entropy alloys using machine learning." <a href="https://doi.org/10.1234/example1" target="_blank" class="text-blue-600 underline">https://www.sciencedirect.com/science/article/abs/pii/S2352492820328828</a>
+          </li>
+          <li>
+            "Deep learning-based hardness prediction of novel refractory high-entropy alloys with experimental validation." <a href="https://arxiv.org/abs/1234.5678" target="_blank" class="text-blue-600 underline">https://www.mdpi.com/2073-4352/11/1/46</a>
+          </li>
+          <li>
+            "Machine-learning-based thermal conductivity prediction for additively manufactured alloys." <a href="https://ieeexplore.ieee.org/document/9876543" target="_blank" class="text-blue-600 underline">https://www.mdpi.com/2504-4494/7/5/160</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="border-t mt-10 py-4 text-center text-gray-700 text-sm">
+      &copy; 2025 Uttam Bhandari. Hosted using GitHub.
+    </footer>
+  </body>
+</html>
+
+
+    <footer class="border-t mt-10 py-4 text-center text-gray-700 text-sm">
+      &copy; 2025 Uttam Bhandari. Hosted using GitHub.
+    </footer>
+  </body>
+</html>
